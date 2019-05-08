@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+  >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="select your programing language:"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorred"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/Androidcheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Android"
+        android:textSize="20sp"
+        />
+
+
+    <CheckBox
+        android:id="@+id/javacheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="java"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/phpcheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="PHP"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/pythoncheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Python"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/unitycheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Unity"
+        android:textSize="20sp"/>
+
+
+
+</LinearLayout>
